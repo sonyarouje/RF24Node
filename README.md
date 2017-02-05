@@ -5,15 +5,19 @@ A nodejs addon of the RF24Network library (https://github.com/TMRh20/RF24Network
 
 >All the credit goes to the orginal developers of RF24 and RF24Network library. I just created an addon for Nodejs.
 
+>Note: This module created using Nodejs version 4.2.1 and node-gyp version 3.5.0. Not tested with any other version.
+
 ##How to use
 1. Clone RF24Node repository 'git clone https://github.com/sonyarouje/RF24Node'
 2. Enter RF24Node directory 'cd RF24Node'
 3. Follow the instructions given in RFNetwork's readme and clone RF24 and RF24Network directories to RaspberryPi.
 4. Once the above steps complete, we can see RF24, RF24Network under RF24Node directory.
+5. Goto RF24/utility/RPi/ and rename interrupt.c to interrupt.cpp. 
 5. Issue 'npm install'
 6. The new nodejs addon will created under /RF24Node/build/Release/rf24Node.node
 
->Note: This module created using Nodejs version 4.2.1 and node-gyp version 3.5.0. Not tested with any other version.
+>Important: In the make file of RF24, interrupt.c should build using CXX but I couldnt find a way of telling node-gyp to compile this file using CXX. If it's .c then it compile using CC and throw erros. To tell node-gyp to use CXX compiler, I have to rename the file extension of interrup.c
+
 
 ##APIs
 begin: Accepts two parameters. Channel and Id of the device, say channel as '90' and Id as '00'--
