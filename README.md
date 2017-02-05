@@ -11,6 +11,8 @@ A nodejs addon of the RF24Network library (https://github.com/TMRh20/RF24Network
 5. Issue 'npm install'
 6. The new nodejs addon will created under /RF24Node/build/Release/rf24Node.node
 
+>Note: This module created using Nodejs version 4.2.1 and node-gyp version 3.5.0. Not tested with any other version.
+
 ##APIs
 begin: Accepts two parameters. Channel and Id of the device, say channel as '90' and Id as '00'--
 
