@@ -40,3 +40,4 @@ rf24.readAsync(function(fromAddress, data){
 });
 ```
 
+sudo node app
