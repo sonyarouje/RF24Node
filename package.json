@@ -1,0 +1,16 @@
+{
+  "name": "nrf24Node",
+  "version": "1.0.0",
+  "description": "NRF24Network nodejs addon",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "Sony Arouje",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "~2.5.1"
+  }
+}
