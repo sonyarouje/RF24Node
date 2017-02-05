@@ -20,13 +20,13 @@ A nodejs addon of the RF24Network library (https://github.com/TMRh20/RF24Network
 
 
 ##APIs
-begin: Accepts two parameters. Channel and Id of the device, say channel as '90' and Id as '00'--
+begin: Accepts two parameters. Channel and Id of the device, say channel as '90' and Id as '00'
 
-printDetails: Print the details of the connected rf24 module.--
+printDetails: Print the details of the connected rf24 module.
 
-readAsync: Pass a callback function whick takes two parameters. First parameter will give the address of the device that send the message and second one is the message.--
+readAsync: Pass a callback function whick takes two parameters. First parameter will give the address of the device that send the message and second one is the message.
 
-write: Send a message to another module. Accepts address and message.--
+write: Send a message to another module. Accepts address and message.
 
 >Note: Message can be upto 24 character. 
 
