@@ -16,7 +16,7 @@ A nodejs addon of the RF24Network library (https://github.com/TMRh20/RF24Network
 5. Issue 'npm install'
 6. The new nodejs addon will created under /RF24Node/build/Release/rf24Node.node
 
->Important: In the make file of RF24, interrupt.c buil uses CXX but I couldnt find a way of telling node-gyp to compile this file using CXX. If it's .c then it compile using CC and throw errors. To tell node-gyp to use CXX compiler, I have to rename the file extension of interrup.c
+>Important: In the make file of RF24, interrupt.c build uses CXX but I couldnt find a way of telling node-gyp to compile this file using CXX. If it's .c then it compile using CC and throw errors. To tell node-gyp to use CXX compiler, I have to rename the file extension of interrup.c
 
 
 ##APIs
