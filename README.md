@@ -11,7 +11,7 @@ A nodejs addon of the RF24Network library (https://github.com/TMRh20/RF24Network
 1. Clone RF24Node repository 'git clone https://github.com/sonyarouje/RF24Node'
 2. Enter RF24Node directory 'cd RF24Node'
 3. Follow the instructions given in RFNetwork's readme and clone RF24 and RF24Network repos to RaspberryPi.
-4. Once the above steps complete, we can see RF24, RF24Network under RF24Node directory.
+4. Once the above steps complete, we can see RF24 and RF24Network under RF24Node directory.
 5. Goto RF24/utility/RPi/ and rename interrupt.c to interrupt.cpp. 
 5. Issue 'npm install'
 6. The new nodejs addon will created under /RF24Node/build/Release/rf24Node.node
