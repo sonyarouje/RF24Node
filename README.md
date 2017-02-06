@@ -45,3 +45,5 @@ rf24.readAsync(function(fromAddress, data){
 ```
 
 sudo node app
+
+For more details check my blog https://sonyarouje.com/2017/02/05/rf-communication-using-nrf24l01-and-nodejs-addon/
