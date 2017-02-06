@@ -1,5 +1,5 @@
 #RF24Node
-Nodejs Addon of RF24Network library for Raspberry Pi
+Nodejs Addon for RF24Network library for Raspberry Pi
 
 A nodejs addon of the RF24Network library (https://github.com/TMRh20/RF24Network) for Raspberry Pi. In my testing RF24Network is a great library to communicate with nrf24L01 modules. Most developments in my Raspberry Pi I use nodejs and this library lacks a nodejs support. So I decided to write one.
 
