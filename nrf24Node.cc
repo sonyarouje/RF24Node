@@ -20,7 +20,7 @@ struct payload_t {                  // Structure of our payload
   char msg[24];
 };
 
-struct payload_pi {                  // Structure of our payload
+struct payload_pi {
   uint16_t fromNode;
   char msg[24];
 };
@@ -88,7 +88,7 @@ void keepListen(void *arg) {
 	{
 		network.update();
 		while (network.available()) {     // Is there anything ready for us?
-			  RF24NetworkHeader header;        // If so, grab it and print it out
+			  RF24NetworkHeader header;
    			payload_t payload;
   			network.read(header,&payload,sizeof(payload));
 
